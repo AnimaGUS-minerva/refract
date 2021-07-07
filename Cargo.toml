@@ -1,0 +1,5 @@
+[package]
+name = "minerva_refract"
+edition = "2018"
+version = "0.1.0"
+authors = ["Trenton Team"]
