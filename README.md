@@ -1,8 +1,8 @@
 # refract
 
-Facilitate exposing some constituent files of a crate under the 'target' directory of its "consumer" crate.
+Facilitate exposing part of constituent files (e.g. raw .rs files) belonging to a crate under the 'target' directory of its "consumer" crate.
 
-Note: This functionality would go against [the generally recommended practice](https://doc.rust-lang.org/cargo/reference/build-scripts.html#outputs-of-the-build-script):
+Note: This functionality might go against [the generally recommended build script practice](https://doc.rust-lang.org/cargo/reference/build-scripts.html#outputs-of-the-build-script):
 
 > Build scripts may save any output files in the directory specified in the OUT_DIR environment variable. Scripts should not modify any files outside of that directory.
 
