@@ -6,7 +6,7 @@ Note: This functionality might go against [the generally recommended build scrip
 
 > Build scripts may save any output files in the directory specified in the OUT_DIR environment variable. Scripts should not modify any files outside of that directory.
 
-So, use this **at your own risk in a very specific situation** (in our case, a custom Rust build/test framework) where this sort of spec is absolutely required.
+So use this **with care in a specific situation** (in our case, a custom Rust build/test framework) where this sort of spec is absolutely required.
 
 ## Examples
 
